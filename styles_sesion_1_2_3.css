@@ -1,0 +1,127 @@
+body {
+    background-color: #fffbf7;
+   }
+    h1 {
+        color: #46484c;
+        text-align: center;
+    }
+    button {
+      color: #fff;
+      background-color: #025157;
+    }
+    p {
+      color: #8b8b8bcc;
+      font-family: verdana;
+    font-size: 20px;
+    }
+    .header > * {
+        margin: 40px 20px 0;
+        display: inline-block;
+        font-size: 16px;
+        vertical-align: middle;
+        height:  45px;
+        line-height: 45px;
+        font-family: sans-serif;
+      }
+      .logo > img {
+        width: 15%;
+      }
+      .navbar {
+        width: 25px;
+        text-align: center;
+        color: #025157;
+      }
+
+      .actions {
+        width: 15%;
+        text-align: right;
+        font-size: 14px;
+      }
+      
+      .actions > * {
+        margin-right: 10px;
+        margin-left: 10px;
+      }
+      
+      .actions a {
+        color: #67b54b;
+      }
+      
+      .actions button {
+        color: white;
+        background-color: #67b54b;
+        padding-left: 14px;
+        padding-right: 14px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        border: 0;
+        border-radius: 5px;
+      }
+
+      /*.main {
+        margin-top: 140px;
+        text-align: center;
+      }*/
+      .main {
+        margin-top: 285px;
+        text-align: center;
+      }
+
+      .publish {
+        /* container styles if any */
+      }
+      
+      .publish h3 {
+        font-family: "Alegreya", serif;
+        font-size: 40px;
+        line-height: 48px;
+        color: #025157;
+      }
+      
+      .publish > p {
+        font-size: 16px;
+        color: #343434;
+        line-height: 1.5;
+        margin-bottom: 20px;
+      }
+      
+      .publish > form {
+        display: flex;
+      }
+      
+      .publish > form p {
+        color: #025157;
+        margin-right: 18px;
+      }
+
+      .promo {
+        display: flex;
+        width: 70%;
+        margin: 100px auto;
+        align-items: center;
+      }
+
+      .explanatory-video {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .explanatory-video img {
+        width: 10px;
+        margin-top: 10px;
+      }
+      
+      img {
+        width: 50px;
+        margin-top: 5px;
+        padding-right: 0%;
+      }
+      
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fffbf7;
+}
